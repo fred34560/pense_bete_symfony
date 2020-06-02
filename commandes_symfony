@@ -1,0 +1,2 @@
+Commande permettant d'installer les fichiers de traductions:
+php bin/console translation:update --force --output-format yaml fr
