@@ -3,3 +3,5 @@ composer require friendsofsymfony/ckeditor-bundle
 php bin/console ckeditor:install
 
 php bin/console assets:install public
+
+copier le fichier de configuration
