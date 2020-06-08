@@ -1,6 +1,0 @@
-composer require friendsofsymfony/ckeditor-bundle
-
-php bin/console ckeditor:install
-
-éditer le fichier "config/packages/fos_ckeditor.yaml"
-
