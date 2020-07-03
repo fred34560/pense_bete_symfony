@@ -1,0 +1,10 @@
+public function findByDateIntervalle ($dateDebut, $dateFin)
+    {
+        return $this->createQueryBuilder('c')
+            ->where('c.dateCommande >= :dateDebut')
+            ->andWhere('c.dateCommande <= :dateFin')
+            ->setParameters(['dateDebut' => $dateDebut, 'dateFin' => $dateFin])
+            ->getQuery()
+            ->getResult()
+        ;
+    }
